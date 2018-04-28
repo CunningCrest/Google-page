@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style/style.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-metro.css">
+    </head>
+    <body>
+        <div class="nav">
+            <a id="messages" href="https://mail.google.com/mail/u/0/?tab=wm#inbox" >Почта</a>
+            <a id="pictures" href="https://www.google.by/imghp?hl=ru&tab=wi&authuser=0" >Картинки</a>
+            <a href="#"><img class="img" src="./icons/list-filled.png"/></a>
+            <a href="#"><img class="img" src="./icons/appointment-reminders-filled.png"/></a>
+            <a href="#"><img class="img" src="./icons/user-male-circle.png"/></a>
+        </div>
+        <div class="main">
+            <div class="inside">
+                <div class="image">
+                    <img src="./icons/google.png"/>
+                </div>
+                <div class="search">
+                    <input id="search_text" type="text">
+                    <img class="help_search" src="./icons/keyboard.png"/>
+                    <img class="help_search" src="./icons/microphone.png"/>
+                </div>
+                <div class="another">
+                    <div class="w3-container">
+                        <button id="search_button" class="w3-btn w3-theme-l4 w3-hover-light-gray">
+                            <a id="find" class="button_link">Поиск в гугл</a>
+                        </button>
+                        <button class="w3-btn w3-theme-l4 w3-hover-light-gray">
+                            <a id="luck" class="button_link" href="https://www.google.com/doodles/">Мне повезет!</a>
+                        </button>
+                    </div>
+                    <p id="before_language">Сервисы Google доступны на разных языках: <a class="lang" id="language" href="#" onclick="myFunc();">Беларуская</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="country">
+            <p>Беларусь</p>
+        </div>
+        <div class="footer">
+            <div class="left_footer">
+                <a id="advertising" class="left" href="https://www.google.com/intl/ru_by/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Реклама</a>
+                <a id="business" class="left" href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none">Для бизнеса</a>
+                <a id="information" class="left" href="https://www.google.com/intl/ru_by/about/?utm_source=google.com&utm_medium=referral&utm_campaign=hp-footer&fg=1">Всё о Google</a>
+            </div>
+            <div class="right_footer">
+                <a id="confidentiality" class="right" href="https://policies.google.com/privacy?hl=ru&gl=by">Конфиденциальность</a>
+                <a id="conditions" class="right" href="https://policies.google.com/terms?hl=ru&gl=by">Условия</a>
+                <a id="settings" class="right" href="#">Настройки</a>
+            </div>
+        </div>
+        <script src="js/script.js"></script>
+    </body>
+</html>
